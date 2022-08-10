@@ -1,0 +1,79 @@
+:root {
+  --bg-color: #FFEDD5;
+  --title-color-2: #995000;
+  --bg-div-title: #FED7AA;
+  --text-color: #2D2C2A;
+  --description-text: #000000;
+  --font-weight-title: 700;
+  --font-weight-description: 400;
+}
+/* global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: 'Roboto Serif', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--text-color);
+}
+
+#title, #section-title, #details-title {
+  font-weight: var(--font-weight-title);
+}
+
+ul {
+  list-style: none;
+}
+/* header */
+header, section {
+  max-width: 300px;
+}
+
+header {
+  padding: 32px 0;
+  text-align: center;
+}
+
+#title {
+  margin-bottom: 4px;
+}
+
+#title span {
+  color: var(--title-color-2);
+}
+
+/* section */
+section {
+  margin-bottom: 24px;
+}
+.section-title {
+  background-color: var(--bg-div-title);
+  padding: 8px 16px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.list-item {
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.details {
+  max-width: 240px;
+}
+
+.details-title {
+  margin-bottom: 8px
+}
+
+.description {
+  font-family: "Roboto", sans-serif;
+  font-weight: var(--font-weight-description);
+  line-height: 21px;
+}
