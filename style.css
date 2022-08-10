@@ -3,7 +3,7 @@
   --title-color-2: #995000;
   --bg-div-title: #FED7AA;
   --text-color: #2D2C2A;
-  --description-text: #000000;
+  --description-text: rgb(0, 0, 0, 0.6);
   --font-weight-title: 700;
   --font-weight-description: 400;
 }
@@ -42,6 +42,7 @@ header {
 
 #title {
   margin-bottom: 4px;
+  line-height: 33px;
 }
 
 #title span {
@@ -69,7 +70,8 @@ section {
 }
 
 .details-title {
-  margin-bottom: 8px
+  margin-bottom: 8px;
+  line-height: 19px;
 }
 
 .description {
